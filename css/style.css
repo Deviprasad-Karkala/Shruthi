@@ -143,3 +143,31 @@ span1{
     height: 622.5px;
     
 }
+
+/* Proof */
+
+.proof{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:60px;
+    margin-bottom: 30px;
+}
+.proof iframe{
+    width: 350.25px;
+    height: 622.5px;
+}
+
+/* UGC Videos */
+
+.UGC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:60px;
+    margin-bottom: 30px;
+}
+.UGC iframe{
+    width: 350.25px;
+    height: 622.5px;
+}

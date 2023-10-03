@@ -30,8 +30,8 @@ nav {
 }
 
 #left {
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 800;
     color: #302f2d;
 }
 
@@ -56,9 +56,10 @@ hr{
 /* About section */
 span{
     color: #ab893f;
+    font-weight: 600;
 }
 .about{
-    margin-top: 70px;
+    margin: 70px 0;
     display: flex;
     justify-content: space-around;
 }
@@ -76,8 +77,9 @@ span{
 
 }
 
-.about .rightAbout h1{
-    font-size: 80px;
+.about .rightAbout h2{
+    font-size: 70px;
+    font-weight: 700;
     margin-bottom: -20px;
 }
 #element{
@@ -88,7 +90,7 @@ span{
 
 
 .btn {
-    padding: 1.1rem 2.3rem;
+    padding: 1.1rem 1.8rem;
     background-color: #ab893f;
     color: #302f2d;
     border: 1px solid #302f2d;
@@ -104,7 +106,40 @@ span{
 .about .rightAbout .btn:hover {
     background-color: #302f2d;
     color: #e3e3d8;
-    border: .2rem solid #636a7E;
+    border: 1px solid #636a7E;
     cursor: pointer;
 
+}
+
+/* About me */
+h1{
+    font-size: 2.6rem;
+    margin: 3rem 10rem;
+}
+span1{
+    background-color: #ab893f;
+    padding: 1px 10px;
+}
+
+.aboutMe{
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.aboutMe .rightAboutMe{
+    width: 50%;
+
+}
+.aboutMe .rightAboutMe p{
+    font-size: 26px;
+    padding: 10PX 0PX;
+
+}
+
+.aboutMe .leftAboutMe iframe{
+    width: 350.25px;
+    height: 622.5px;
+    
 }

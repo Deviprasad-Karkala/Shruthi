@@ -277,7 +277,7 @@ footer {
 }
 
 .details h1 {
-    font-size: 90px;
+    font-size: 95px;
     font-weight: 800;
     line-height: 0.8624973em;
 }
@@ -288,15 +288,15 @@ footer {
 }
 
 .details p {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .details a {
     color: #edebe8;
-    font-size: 24px;
+    font-size: 20px;
 }
 
-.process {
+.SM{
     display: flex;
     flex-direction: column;
 }
